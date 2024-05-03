@@ -1,0 +1,742 @@
+@media screen and (max-width: 600px) {
+
+    /*===================================== Nav Section =======================================*/
+        #nav a {
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+        #nav ul li a {
+            display: none;
+        }
+    
+        .nav-menu-icon {
+            font-size: 20px;
+            display: block;
+        }
+    
+        .dropdown-menu .nav-close-icon {
+            font-size: 20px;
+            display: block;
+        }
+    
+    /*===================================== Home Content Section =======================================*/
+        #home-content h1 {
+            opacity: .9;
+        }
+        
+        .blocktext h5{
+            font-size: 12px;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+    
+        .home-right-content {
+            font-size: 14px;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+        
+        .home-left-content h5 {
+            font-size: 14px;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+    
+    
+    /*===================================== About Section =======================================*/
+        #about {
+            flex-wrap: wrap;
+            padding: 15vw 8vw;
+        }    
+    
+        .about-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+    
+        .about-text h5 {
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+    
+        .about-text p {
+            font-size: 14px;
+            font-weight: 200;
+            margin-bottom: 20px;
+        }
+    
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .social-icons a {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    
+    /*===================================== Project Section =======================================*/
+        #project {
+            margin-bottom: 6vw;
+        }
+    
+        .project-title {
+            border-top: 1px solid #999;
+        }
+    
+        .project-title a h1 {
+            text-transform: uppercase;
+            font-size: 5vw;
+            font-weight: 300;
+            opacity: 1;
+        }
+    
+        .elementlast {
+            border-bottom: 1px solid #999;
+        }
+    
+    /*===================================== Skills Section =======================================*/
+        .skills-heading {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+        
+        .skills-content {
+            flex-wrap: wrap;
+        }
+    
+        .skills-details {
+            width: 100%;
+        }
+    
+        .skills-title {
+            gap: 5px;
+            margin-top: 20px;
+        }
+    
+         .skills-title i {
+            font-size: 16px;
+        }
+    
+        .skills-title h4{
+            font-size: 16px;
+        }
+    
+        .skills-name p{
+            font-size: 15px;
+            opacity: 1;
+        }
+    
+    /*===================================== Footer Section =======================================*/
+        #footer {
+            border-top: 1px solid #999;
+            padding: 1vw 4vw;
+        }
+        .footer-left h5{
+            font-size: 12px;
+        }
+        
+        .footer-right {
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .footer-right a {
+            font-size: 12px;
+        }
+    
+        .footer-right p {
+            font-size: 12px;
+        }
+    }
+    
+    @media screen and (min-width: 600px) {
+    
+    /*===================================== Nav Section =======================================*/
+        #nav a {
+            font-size: 16px;
+        }
+    
+        #nav ul li a {
+            display: none;
+        }
+    
+        .nav-menu-icon {
+            font-size: 24px;
+            display: block;
+        }
+    
+        .dropdown-menu .nav-close-icon {
+            display: block;
+        }
+    
+    /*===================================== Home Content Section =======================================*/
+        #home-content h1 {
+            opacity: .7;
+        }
+    
+        .blocktext h5{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    
+        .home-right-content {
+            font-size: 16px;
+            font-weight: 300;
+        }
+        
+        .home-left-content h5 {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    /*===================================== About Section =======================================*/
+        #about {
+            flex-wrap: wrap;
+            padding: 12vw 8vw;
+        }    
+    
+        .about-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+    
+        .about-text h5 {
+            font-size: 18px;
+            font-weight: 500;
+            opacity: 0.7;
+        }
+    
+        .about-text p {
+            font-size: 16px;
+            font-weight: 200;
+            margin-bottom: 20px;
+        }
+    
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: 20px;
+        }
+        
+        .social-icons a {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    
+    /*===================================== Project Section =======================================*/
+    
+        .project-title {
+            border-top: 1px solid #999;
+        }
+    
+        .project-title a h1 {
+            text-transform: uppercase;
+            font-size: 5vw;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+    
+        .elementlast {
+            border-bottom: 1px solid #999;
+        }
+    
+    /*===================================== Skills Section =======================================*/
+        #skills {
+            padding-top: 12vw;
+        }
+    
+        .skills-heading {
+            font-size: 18px;
+        }
+        
+        .skills-content {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    
+        .skills-details {
+            width:50%;
+            padding-top: 20px;
+        }
+    
+        .skills-title {
+            gap: 8px;
+        }
+    
+         .skills-title i {
+            font-size: 16px;
+        }
+    
+        .skills-title h4{
+            font-size: 16px;
+        }
+    
+        .skills-name p{
+            font-size: 16px;
+            opacity:1;
+        }
+    
+    /*===================================== Footer Section =======================================*/
+        #footer {
+            border-top: 1px solid #999;
+            padding: 1vw 4vw;
+        }
+        .footer-left h5{
+            font-size: 14px;
+        }
+    
+        .footer-right {
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .footer-right a {
+            font-size: 14px;
+        }
+    
+        .footer-right p {
+            font-size: 14px;
+        }
+    }
+    
+    @media screen and (min-width: 800px) {
+    
+    /*===================================== Nav Section =======================================*/
+        #nav a {
+            font-size: 16px;
+            display: block;
+            font-weight: 300;
+        }
+    
+        #nav ul li a {
+            font-size: 16px;
+            display: block;
+            font-weight: 300;
+        }
+    
+        .nav-menu-icon {
+            display: none;
+        }
+        
+        .nav-close-icon {
+            display: none;
+        }
+    
+    /*===================================== Home Content Section =======================================*/
+        .home-content h1{
+            opacity: 0.7;
+        }
+    
+        .blocktext h5{
+            font-size: 14px;
+            font-weight: 300;
+        }
+    
+        .home-right-content {
+            font-size: 16px;
+            font-weight: 300;
+        }
+        
+        .home-left-content h5 {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 300;
+        }
+    
+    /*===================================== About Section =======================================*/
+        #about {
+            gap: 30px;
+        }    
+    
+        .about-img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+    
+        .about-text {
+            width: 50%;
+        }
+    
+        .about-text h5 {
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+            opacity: 0.7;
+        }
+    
+        .about-text p {
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+    
+        .social-icons a {
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+    
+        /*===================================== Project Section =======================================*/
+        
+    
+        .project-title {
+            border-top: 1px solid #999;
+        }
+    
+        .project-title a h1 {
+            text-transform: uppercase;
+            font-size: 5vw;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+    
+        .elementlast {
+            border-bottom: 1px solid #999;
+        }
+    
+        /*===================================== Skills Section =======================================*/
+        .skills-heading {
+            font-size: 18px;
+            opacity: 0.7;
+        }
+    
+        .skills-content {
+            flex-wrap: wrap;
+        }
+    
+        .skills-details {
+            width: 30%;
+        }
+    
+        .skills-title {
+            gap: 10px;
+        }
+    
+        .skills-title i {
+            font-size: 18px;
+        }
+    
+        .skills-title h4{
+            font-size: 18px;
+            text-align: center;
+        }
+    
+        .skills-name p{
+            font-size: 16px;
+            opacity: 1;
+        }
+    
+        /*===================================== Footer Section =======================================*/
+        #footer {
+            border-top: 1px solid #999;
+            padding: 1vw 4vw;
+        }
+    
+        .footer-left h5{
+            font-size: 14px;
+        }
+    
+        .footer-right {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    
+        .footer-right a {
+            font-size: 14px;
+        }
+    
+        .footer-right p {
+            font-size: 14px;
+            font-weight: 200;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+    
+    /*===================================== Nav Section =======================================*/
+        #nav a {
+            font-size: 18px;
+        }
+    
+        #nav ul li a {
+            font-size: 18px;
+        }
+    
+        .nav-menu-icon {
+            display: none;
+        }
+        
+        .nav-close-icon {
+            display: none;
+        }
+    
+    /*===================================== Home Content Section =======================================*/
+        .blocktext h5{
+            font-size: 16px;
+            font-weight: 300;
+        }
+    
+        .home-right-content {
+            font-size: 18px;
+            font-weight: 300;
+        }
+        
+        .home-left-content h5 {
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: 300;
+        }
+    
+    /*===================================== About Section =======================================*/
+        #about {
+            flex-wrap: wrap;
+            padding: 8vw 3vw;
+        }    
+    
+        .about-img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+    
+        .about-text {
+            width: 60%;
+        }
+    
+        .about-text h5 {
+            font-size: 20px;
+            font-weight: 500;
+            text-align: center;
+        }
+    
+        .about-text p {
+            font-size: 18px;
+            font-weight: 200;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+    
+        .social-icons {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+    
+        .social-icons a {
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+    
+        /*===================================== Project Section =======================================*/
+        #project {
+            padding-bottom: 3vw;
+        }
+    
+        .project-title {
+            border-top: 1px solid #999;
+        }
+    
+        .project-title a h1 {
+            text-transform: uppercase;
+            font-size: 5vw;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+    
+        .elementlast {
+            border-bottom: 1px solid #999;
+        }
+    
+        /*===================================== Skills Section =======================================*/
+        .skills-heading {
+            font-size: 20px;
+        }
+    
+        .skills-content {
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+    
+        .skills-details {
+            width: 30%;
+        }
+    
+        .skills-title h4{
+            font-size: 20px;
+        }
+    
+        .skills-title i {
+            font-size: 20px;
+        }
+    
+        .skills-name p{
+            font-size: 18px;
+        }
+    
+        /*===================================== Footer Section =======================================*/
+        #footer {
+            border-top: 1px solid #999;
+            padding: 1vw 4vw;
+        }
+        .footer-left h5{
+            font-size: 16px;
+        }
+    
+        .footer-right {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    
+        .footer-right a {
+            font-size: 16px;
+        }
+    
+        .footer-right p {
+            font-size: 16px;
+        }
+    }
+    
+    @media screen and (min-width: 1200px) {
+    
+    /*===================================== Nav Section =======================================*/
+        #nav a {
+            font-size: 20px;
+        }
+    
+        #nav ul li a {
+            font-size: 18px;
+        }
+    
+        .nav-menu-icon {
+            display: none;
+        }
+        
+        .nav-close-icon {
+            display: none;
+        }
+    
+    /*===================================== Home Content Section =======================================*/
+        .blocktext h5{
+            font-size: 18px;
+            font-weight: 300;
+        }
+    
+        .home-right-content {
+            font-size: 20px;
+            font-weight: 300;
+        }
+        
+        .home-left-content h5 {
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    
+    /*===================================== About Section =======================================*/ 
+        #about {
+            gap: 50px;
+        }
+    
+        .about-img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+        }
+    
+        .about-text h5 {
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center;
+        }
+    
+        .about-text p {
+            font-size: 20px;
+            font-weight: 200;
+            margin-bottom: 20px;
+        }
+    
+        .social-icons {
+            gap: 20px;
+        }
+    
+        .social-icons a {
+            font-size: 22px;
+        }
+    
+    /*===================================== Project Section =======================================*/
+        .project-title {
+            border-top: 1px solid #999;
+        }
+    
+        .project-title a h1 {
+            text-transform: uppercase;
+            font-size: 5vw;
+            font-weight: 300;
+            opacity: 0.7;
+        }
+    
+        .elementlast {
+            border-bottom: 1px solid #999;
+        }
+    
+    /*===================================== Skills Section =======================================*/
+    
+        .skills-heading {
+            font-size: 24px;
+        }
+    
+        .skills-content {
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+    
+        .skills-title h4{
+            font-size: 22px;
+        }
+    
+        .skills-title i {
+            font-size: 24px;
+        }
+    
+        .skills-name p{
+            font-size: 20px;
+        }
+    /*===================================== Footer Section =======================================*/
+        #footer {
+            border-top: 1px solid #999;
+            padding: 1vw 4vw;
+        }
+        .footer-left h5{
+            font-size: 18px;
+        }
+    
+        .footer-right {
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+    
+        .footer-right a {
+            font-size: 18px;
+        }
+    
+        .footer-right p {
+            font-size: 18px;
+        }
+    }
